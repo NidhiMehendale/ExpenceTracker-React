@@ -1,0 +1,54 @@
+/* app/styles/ExpenseList.css */
+.expense-list {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .expense-list h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  tr:last-child td {
+    border-bottom: none;
+  }
+  
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .positive-amount {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .negative-amount {
+    color: red;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    th, td {
+      padding: 6px;
+    }
+  
+    
+    }
